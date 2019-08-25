@@ -2,7 +2,6 @@ require 'byebug'
 
 def str_str(haystack, needle)
     return 0 if needle.length == 0
-    # debugger
     (0...haystack.length).each do |idx|
        (idx..haystack.length).each do |j|
         debugger
