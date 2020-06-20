@@ -7,7 +7,7 @@ class Node{
 }
 
 function print(head){
-    const ans = [];
+    let ans = [];
     while(head){
         ans.push(head.val);
         head = head.next;
